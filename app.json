@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "primuseMusic",
+    "slug": "primusemusic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/primuse_logo.png",
+    "splash": {
+      "image": "./assets/primuse_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/416aba7d-23a0-4571-9c9d-1fcfc4b48121"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.primuse",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourcompany.primuse",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/primuse_logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "416aba7d-23a0-4571-9c9d-1fcfc4b48121"
+      }
+    },
+    "owner": "nana_osei",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
